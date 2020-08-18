@@ -1,0 +1,182 @@
+body,
+html {
+    height: 100%;
+    /* overflow: auto; */
+}.container{
+	height: 100%;
+	width: 100%;
+	background-image: url("bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header-container{
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+.header{
+	width: auto;
+	margin: auto;
+	margin-top: 24px;
+	overflow: auto;
+	text-align: center;
+	display: inline-flex;
+}
+.logo-container img{
+	width: 96px;
+	height: 48px;
+	margin: auto;
+	cursor: pointer;
+}
+.menu-container{
+	padding: 10px;
+	margin: auto;
+}
+.menu-container ul li{
+	list-style: none;
+	display: inline;
+}
+.menu-container ul li a{
+	text-decoration: none;
+	padding: 16px 18px;
+  color: white;
+	letter-spacing: 1px;
+	font-family: 'Montserrat';
+}
+.menu-container ul li a:hover{
+	background: white;
+}
+.content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 48%;
+	transform: translateX(-50%);
+	text-align: center;
+	color: white;
+}
+.content h1{
+	line-height: 1px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 48px;
+}
+.content h3{
+	font-family: 'Montserrat';
+	font-size: 42px;
+	letter-spacing: 1px;
+}
+.content a{
+	border-radius: 2px;
+	text-decoration: none;
+	border: none;
+	padding: 16px 42px;
+	color: white;
+	font-size: 24px;
+	background:rgb(161, 158, 158);
+	text-transform: uppercase;
+}
+.content a:hover{
+	background: rgb(116, 114, 114);
+}
+
+
+
+.part1 {
+    background-image: url('Layer2.png');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.part2 {
+    background-image: url('beautiful-16736_1280.png');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.part3 {
+    background-image: url('Layer3.png');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.part4 {
+    background-image: url('Layer5.png');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button2:hover {
+    background-color: maroon;
+    color: white;
+}
+
+.part5 {
+    background-attachment: fixed;
+}
+@media only screen and (max-width: 768px) {
+    header .navbar-brand {
+      padding-left: 1rem;
+    }
+    .part1 .row .col-md-6 .panel {
+      position: initial;
+      width: initial;
+      height: initial;
+    }
+    .part2 .cover {
+      background-position: -25vmin -10vmin;
+    }
+    .numbers .rect {
+      width: 10rem;
+      height: 8rem;
+    }
+    .numbers .rect h1 {
+      font-size: 2rem;
+    }
+  
+    .part3 {
+      height: inherit;
+      padding: 10vmin !important;
+    }
+    .part3 .row h1 {
+      padding: 6vmin 4vmin;
+    }
+    .part3 .platform .col-md-6 {
+      text-align: center !important;
+    }
+    .part3 .desktop i {
+      font-size: 8vmin;
+    }
+    .part4 .carousel-item {
+      padding-left: 0.6rem;
+    }
+    footer .row .col-md-2 {
+      margin-top: 8vmin;
+    }
+  }
+  
+  /* screen size 375px */
+  
+  @media only screen and (max-width: 375px) {
+    .section-4 .card {
+      width: 18em;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .section-4 .carousel-inner {
+      margin-left: -4vmin;
+    }
+  }
